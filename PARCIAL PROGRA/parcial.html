@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adopción de mascotas</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Adopta una mascota</h1>
+        
+		<div class="pet-container">
+			<div class="pet">
+				<img src="https://labyes.com/wp-content/uploads/2022/05/chihuahua-600x600.jpg" alt="Mascota 1">
+				<p>Hola, mi nombre es coco. ¡Adóptame!</p>
+				<button class="adopt-btn" onclick="adoptar('Perla')">Adóptame</button>
+			</div>
+			<div class="pet">
+				<img src="https://i.pinimg.com/236x/53/27/71/53277132f33ca501452b3536e22a3407.jpg" alt="Mascota 2">
+				<p>Hola, mi nombre es caramelo. ¡Adóptame!</p>
+				<button class="adopt-btn" onclick="adoptar('Chispas')">Adóptame</button>
+			</div>
+			<div class="pet">
+				<img src="https://www.elmueble.com/medio/2022/09/05/perro-cachorro_82dd9cd3_900x900.jpg" alt="Mascota 3">
+				<p>Hola, mi nombre es doky. ¡Adóptame!</p>
+				<button class="adopt-btn" onclick="adoptar('Max')">Adóptame</button>
+			</div>
+			<div class="pet">
+				<img src="https://t2.ea.ltmcdn.com/es/posts/6/8/0/razas_de_conejos_enanos_o_toy_24086_600_square.jpg" alt="Mascota 4">
+				<p>Hola, mi nombre es Max. ¡Adóptame!</p>
+				<button class="adopt-btn" onclick="adoptar('Luna')">Adóptame</button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function adoptar(nombreMascota) {
+			var nombreAdoptante = prompt("Ingresa tu nombre:");
+			if (nombreAdoptante !== null && nombreAdoptante !== "") {
+				alert("Gracias " + nombreAdoptante + " por adoptar a " + nombreMascota + "!");
+			}
+		}
+	</script>
+</body>
+</body>
+</html>

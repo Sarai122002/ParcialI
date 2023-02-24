@@ -1,0 +1,64 @@
+body {
+	background-image: url("https://p4.wallpaperbetter.com/wallpaper/465/83/635/the-secret-life-of-pets-best-hd-for-pc-download-wallpaper-preview.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 100ch;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: center;
+
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.pet-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.pet {
+	width: calc(25% - 20px);
+	margin-bottom: 30px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.pet img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.pet p {
+    color:rgb(13, 13, 14);
+	margin-bottom: 10px;
+}
+
+.adopt-btn {
+	background: linear-gradient(50deg, #940094, #d80fa6);
+	color: #240f0f;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.pet {
+		width: calc(50% - 20px);
+	}
+}
