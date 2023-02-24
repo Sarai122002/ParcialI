@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/465/83/635/the-secret-life-of-pets-best-hd-for-pc-download-wallpaper-preview.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    }
+
+    h1 {
+        color: hsl(227, 2%, 12%);
+      }
+    .mascota {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(105, 233, 222, 0.308);
+    border-radius: 10px;
+    padding: 10px;
+    }
+    .mascota img {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    }
+    .mascota p {
+    margin-top: 0;
+    font-weight: bold;
+    }
+    .mascota button {
+    background-color: #132092;
+    color: rgb(255, 238, 238);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .mascota button:hover {
+    background-color: #132092;
+    }
+
+
